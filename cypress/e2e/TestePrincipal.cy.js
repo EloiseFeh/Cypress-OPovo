@@ -15,8 +15,8 @@ describe('Teste de busca no site O Povo', () => {
   it('2 - Aplicação de Filtro', () => {
     SearchPage.visit();
     SearchPage.performSearch('UFC');
-    CarnavalSearch.verifyResultsNotEmpty();
     SearchPage.applyFilter();
+    CarnavalSearch.verifyResultsNotEmpty();
   });
 
   it('3 - Visitar Caderno de Esportes', () => {
