@@ -1,0 +1,19 @@
+{
+  "name": "testes-q2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
